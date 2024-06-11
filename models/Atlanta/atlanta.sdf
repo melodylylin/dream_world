@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="atlanta">
+    <pose>0 0 0 0 0 0</pose>
+    <static>true</static>
+
+    <link name="buildings">
+      <visual name="visual">
+        <geometry>
+	    <mesh>
+		<uri>model://Atlanta/media/buildings.dae</uri>
+		<scale>0.1 0.1 0.1</scale>
+	    </mesh>
+        </geometry>
+        <pose>0 0 -3.5 0 0 0</pose>
+      </visual>
+      <collision name="collision">
+        <geometry>
+	    <mesh>
+		<uri>model://Atlanta/media/buildings.dae</uri>
+		<scale>0.1 0.1 0.1</scale>
+	    </mesh>
+        </geometry>
+        <pose>0 0 -3.5 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>
